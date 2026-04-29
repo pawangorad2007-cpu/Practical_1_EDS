@@ -1,0 +1,9 @@
+n=int(input())
+if n>0 and n<10:
+	print(n**2)
+elif n>9 and n<100:
+	print(f"{n**0.5:.2f}")
+elif n>99 and n<1000:
+	print(f"{n**0.333333:.2f}")
+else :
+	print("Invalid")
